@@ -1,0 +1,117 @@
+.content {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+    padding: 10px;
+}
+
+.conleft {
+    width: 35vw;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: top;  
+    margin: 20px 10px;
+}
+.conleft > ul, .conleft > div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+
+    list-style: none; 
+}
+
+input[type=text]{
+    width: 150px;
+    padding: 5px;
+    margin: 8px;
+}
+
+button[type=reset] {
+    display: inline-flex;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(7, 45, 22);
+    margin: 10px;
+}
+
+.conleftdiv {
+    background-color: rgb(2, 7, 21);
+    padding: 20px;
+}
+.uli, .ulis{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    margin-bottom: 10px;
+}
+.uli:hover , .uli:active, .ulis   {
+    background-color: gainsboro;
+    color: blue;
+    font-weight: bold;
+}    
+.conright {
+    width: 50vw;
+    height: 80vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: top;
+    align-items: top;  
+    margin: 10px; 
+}
+
+.concard {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 0px;
+    background-color: rgb(2, 7, 21);
+    color: white;
+}
+
+.concard > div {
+    width: 70%;
+    font-size: 1.2em;
+} 
+
+.concard >.conkw {
+    font-size: 0.8em;
+    color: aliceblue;
+}
+.concard img {
+    width : 100%;
+    height: 200px;
+}
+
+.se1R {
+   background-color: rgb(2, 7, 21);
+   color: white;
+   display: flex;
+   justify-content: center;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.sel1 {
+    width: 80%;
+    height: 30px;
+}
